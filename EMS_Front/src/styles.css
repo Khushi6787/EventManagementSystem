@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+.background-color {
+    /* background-color: rgb(36, 36, 78); */
+    background-color: #117195;
+    /* background-image: linear-gradient(to bottom right, #117195, #6cd8ff); */
+}
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+tr:hover {
+    background-color: rgb(220, 245, 254);
+}
+
+.btn-custom {
+    padding: .6rem .8rem;
+    line-height: 1rem;
+    border: none;
+    border-radius: .375rem;
+    /* background-color: rgb(47, 47, 111); */
+    background-color: #117195;
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease-in;
+    font-size: large;
+}
+
+.btn-custom-outline {
+    padding: .6rem .8rem;
+    line-height: 1rem;
+    border: 1px solid #117195;
+    border-radius: .375rem;
+    text-decoration: none;
+    color: #117195;
+    transition: all .3s ease-in;
+    font-size: large;
+}
+
+.btn-custom-outline:hover {
+    color: white;
+    /* background-color: rgb(47, 47, 111); */
+    background-color: #0a6687;
+    scale: 1.1;
+}
+
+.btn-custom:hover {
+    color: white;
+    /* background-color: rgb(47, 47, 111); */
+    background-color: #1f8db6;
+    scale: 1.1;
+}
